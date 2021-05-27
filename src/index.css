@@ -1,5 +1,5 @@
 /*
-=============== 
+===============
 Variables
 ===============
 */
@@ -44,7 +44,7 @@ Variables
   --clr-pink: #f28ab2;
 }
 /*
-=============== 
+===============
 Global Styles
 ===============
 */
@@ -186,6 +186,5 @@ main {
   padding: 0.5rem 0;
   letter-spacing: var(--spacing);
   border-radius: var(--radius);
-  outline: 1px solid rgba(242, 138, 178, 0.8);
   cursor: pointer;
 }
