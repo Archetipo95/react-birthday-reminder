@@ -9,7 +9,7 @@ function App() {
     return (
       <main>
         <section className="container">
-          <h3>{people.length} Birtdays Today</h3>
+          <h3>{people.length} Birthdays Today</h3>
           <button onClick={() => setPeople(data)}>Refresh</button>
         </section>
       </main>
@@ -19,7 +19,7 @@ function App() {
   return (
     <main>
       <section className="container">
-        <h3>{people.length} Birtdays Today</h3>
+        <h3>{people.length} Birthdays Today</h3>
         <List people={people} />
         <button onClick={() => setPeople([])}>clear all</button>
       </section>
